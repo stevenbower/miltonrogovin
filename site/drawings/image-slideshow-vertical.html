@@ -1,0 +1,64 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<title>Image slideshow with vertical filmstrip</title>
+	<link rel="stylesheet" href="css/image-slideshow-vertical.css">
+	
+	<script type="text/javascript" src="js/image-slideshow-vertical.js">
+	/************************************************************************************************************
+	(C) www.dhtmlgoodies.com, November 2005
+	
+	This is a script from www.dhtmlgoodies.com. You will find this and a lot of other scripts at our website.	
+	
+	Terms of use:
+	You are free to use this script as long as the copyright message is kept intact. However, you may not
+	redistribute, sell or repost it without our permission.
+	
+	Thank you!
+	
+	www.dhtmlgoodies.com
+	Alf Magne Kalleland
+	
+	************************************************************************************************************/
+	
+
+	</script>
+</head>
+<body>
+<div id="dhtmlgoodies_slideshow">
+	<div id="previewPane">
+		<img src="images/image1_big.jpg">	
+		<span id="waitMessage">Loading image. Please wait</span>
+		<div id="largeImageCaption">This is the caption of image number 1</div>
+	</div>
+	<div id="galleryContainer">
+		<div id="arrow_up"><img src="images/arrow-up.gif" id="arrow_up_image"></div>
+		
+		<div id="theImages">
+			<div>
+							<a href="#" onclick="showPreview('images/image1_big.jpg','1');return false"><img src="images/image1.jpg"></a>		
+								<a href="#" onclick="showPreview('images/image2_big.jpg','2');return false"><img src="images/image2.jpg"></a>		
+								<a href="#" onclick="showPreview('images/image3_big.jpg','3');return false"><img src="images/image3.jpg"></a>		
+								<a href="#" onclick="showPreview('images/image4_big.jpg','4');return false"><img src="images/image4.jpg"></a>		
+								<a href="#" onclick="showPreview('images/image5_big.jpg','5');return false"><img src="images/image5.jpg"></a>		
+								<a href="#" onclick="showPreview('images/image6_big.jpg','6');return false"><img src="images/image6.jpg"></a>		
+								<a href="#" onclick="showPreview('images/image7_big.jpg','7');return false"><img src="images/image7.jpg"></a>		
+								<a href="#" onclick="showPreview('images/image8_big.jpg','8');return false"><img src="images/image8.jpg"></a>		
+										<div class="imageCaption">This is the caption of image number 1</div>
+						<div class="imageCaption">This is the caption of image number 2</div>
+						<div class="imageCaption">This is the caption of image number 3</div>
+						<div class="imageCaption">This is the caption of image number 4</div>
+						<div class="imageCaption">This is the caption of image number 5</div>
+						<div class="imageCaption">This is the caption of image number 6</div>
+						<div class="imageCaption">This is the caption of image number 7</div>
+						<div class="imageCaption">This is the caption of image number 8</div>
+						
+			<div id="slideEnd"></div>
+			</div>
+		
+		</div>
+		<div id="arrow_down"><img src="images/arrow-down.gif" id="arrow_down_image"></div>
+	</div>
+</div>
+</body>
+</html>

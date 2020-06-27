@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /photoseries/photos/
+Disallow: /am_portraits/images/
+Disallow: /drawings/images/
+Disallow: /images/
+Sitemap: http://www.miltonrogovin.com/sitemap.xml

@@ -1,0 +1,72 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html;charset=iso-8859-1">
+	<title>Image slideshow 5</title>
+	<link rel="stylesheet" href="css/image-slideshow-5.css" type="text/css">
+	<script type="text/javascript" src="js/image-slideshow-5.js">
+	</script>
+</head>
+<body>
+
+<div id="mainContainer">
+<!-- Start of slideshow markup -->
+<div id="DHTMLgoodies_panel_one">
+	<div id="DHTMLgoodies_thumbs">
+		<div id="DHTMLgoodies_thumbs_inner">
+			<!-- This is where you put your small thumbnails -->
+			
+			<!-- This is the div for one vertical strip of images -->
+			<div class="strip_of_thumbnails">
+				<div><a id="firstThumbnailLink" href="#" onclick="showPreview('images/image1_big.jpg',this);return false;"><img src="images/image1.jpg"></a></div>
+				<div><a href="#" onclick="showPreview('images/image2_big.jpg',this);return false;"><img src="images/image2.jpg"></a></div>
+				<div><a href="#" onclick="showPreview('images/image3_big.jpg',this);return false;"><img src="images/image3.jpg"></a></div>
+			</div>	
+			<!-- End div for the first vertical strip of thumbnails-->
+			<div class="strip_of_thumbnails">
+				<div><a href="#" onclick="showPreview('images/image4_big.jpg',this);return false;"><img src="images/image4.jpg"></a></div>
+				<div><a href="#" onclick="showPreview('images/image5_big.jpg',this);return false;"><img src="images/image5.jpg"></a></div>
+				<div><a href="#" onclick="showPreview('images/image6_big.jpg',this);return false;"><img src="images/image6.jpg"></a></div>
+			</div>	
+			<div class="strip_of_thumbnails">
+				<div><a href="#" onclick="showPreview('images/image7_big.jpg',this);return false;"><img src="images/image7.jpg"></a></div>
+				<div><a href="#" onclick="showPreview('images/image8_big.jpg',this);return false;"><img src="images/image8.jpg"></a></div>
+				<div><a href="#" onclick="showPreview('images/image9_big.jpg',this);return false;"><img src="images/image9.jpg"></a></div>
+			</div>
+			<div class="strip_of_thumbnails">
+				<div><a href="#" onclick="showPreview('images/image10_big.jpg',this);return false;"><img src="images/image10.jpg"></a></div>
+				<div><a href="#" onclick="showPreview('images/image11_big.jpg',this);return false;"><img src="images/image11.jpg"></a></div>
+				<div><a href="#" onclick="showPreview('images/image12_big.jpg',this);return false;"><img src="images/image12.jpg"></a></div>
+			</div>
+			<!-- End where you put your small thumbnails -->
+		</div>
+	</div>
+	<!-- Arrow images - You can change the "src", but not the "id" -->
+	<div id="DHTMLgoodies_arrows">
+		<img id="DHTMLgoodies_leftArrow" class="leftArrow" src="images/arrow_left.gif">
+		<img id="DHTMLgoodies_rightArrow" class="rightArrow" src="images/arrow_right.gif">
+	</div>
+</div>
+<!-- Large image div -->
+<div id="DHTMLgoodies_largeImage">
+	<!-- Table is used to get both vertical and horizontal center alignment -->
+	<table>
+		<tr>
+			<td>
+				<!-- The intial shown image -->
+				<img src="images/image1_big.jpg"></a>
+			</td>
+		</tr>
+	</table>
+</div>
+<!-- End of slideshow markup -->
+
+<div class="clear"></div>
+</div>
+
+<script type="text/javascript">
+initGalleryScript();	// Initialize script
+</script>
+
+</body>
+</html>
